@@ -23,7 +23,7 @@ const comp_para = document.querySelector("#comp-score");
            msg_para.style.backgroundColor = "green";
         } else{
              comScore++;
-              msg_para.innerText = `You lose! your ${compchoice} beats ${userchoice}`;;
+              msg_para.innerText = `You lose! The ${compchoice} beats your ${userchoice}`;;
                 msg_para.style.backgroundColor = "red";
                 comp_para.innerText = comScore;
         }
